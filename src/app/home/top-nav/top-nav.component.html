@@ -1,14 +1,42 @@
-<!-- HEADER -->
-<nav class="navbar-fixed-top navbar-inverse">
-	<div class="navbar-header">
-		<a class="navbar-brand mybrand" [routerLink]="['/about']">AARF KY</a><i class="fa fa-paw"  aria-hidden="true" style="font-size:3.4em; color:white;"></i>
-	</div>
+<nav id="mainNav" class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+</button>
+        <a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+      </div>
 
-	<ul class="nav navbar-nav navbar-right">
-		<li><a [routerLink] = "['/about']" >Home</a></li>
-		<li><a [routerLink] = "['/adopt']" >Adopt</a></li>
-		<li><a [routerLink] = "['/events']">Events</a></li>
-		<li><a [routerLink] = "['/programs']">Programs</a></li>
-		<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EXCVRZNCNSH98 "target="_blank" >Donate</a></li>
-	</ul>
-</nav>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-left">
+          <li>
+            <a class="page-scroll" routerLink="/about">About</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#services">Skills</a>
+          </li>
+          <li>
+            <a class="page-scroll" routerLink="/portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="https://www.linkedin.com/in/jnmabry/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/jnmabry" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="https://www.behance.net/joshmabry" target="_blank"><i class="fa fa-behance-square" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
