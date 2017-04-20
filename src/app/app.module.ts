@@ -15,6 +15,12 @@ import { ContactComponent } from './contact/contact.component';
 // Service Files
 import { ProjectService } from './models/project.service';
 
+//Node Pack Addons
+import {Ng2PageScrollModule} from 'ng2-page-scroll';
+import { SkillsComponent } from './skills/skills.component';
+import { HugDetailComponent } from './portfolio/hug-detail/hug-detail.component';
+import { HikeitDetailComponent } from './portfolio/hikeit-detail/hikeit-detail.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,13 +29,17 @@ import { ProjectService } from './models/project.service';
     FooterComponent,
     PortfolioComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    SkillsComponent,
+    HugDetailComponent,
+    HikeitDetailComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
+    Ng2PageScrollModule.forRoot()
   ],
   providers: [ProjectService],
   bootstrap: [AppComponent]

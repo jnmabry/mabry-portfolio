@@ -2,4 +2,36 @@
   // position: absolute;
   // text-align: center;
   // bottom: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 50px;
+  display: inherit;
+  ul {
+    list-style: none;
+    margin: 0px;
+    & li {
+      display: inline-block
+    }
+    & .fa {
+      color: white;
+      display: inline-block;
+      font-size: 30px;
+    }
+  }
+  & .email-form {
+    position: relative;
+    // bottom: 269px;
+    // height: 289px;
+    // width: 379px;
+    // margin-left: 20px;
+    background-color: red;
+    display: inline-block;
+  }
+  & .contact-info {
+    letter-spacing: 1.5px;
+    // background-color: green;
+    color: white;
+  }    
 }
+
