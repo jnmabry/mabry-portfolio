@@ -1,0 +1,24 @@
+.hero {
+  height: 510px;
+}
+
+.background {
+  background-image: url('/assets/mountain.jpg');
+  background-position-y: -1568px;
+}
+
+.heading-text {
+  margin-top: 40px;
+  position: relative;
+  top: 44px;
+}
+
+.detail-body {
+  margin-top: 40px;
+}
+
+.phone{
+  background-size: cover;
+  background-image: url('/assets/iphoneMockup.png');
+  height: 480px;
+}
