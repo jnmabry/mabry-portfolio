@@ -20,6 +20,7 @@ import {Ng2PageScrollModule} from 'ng2-page-scroll';
 import { SkillsComponent } from './skills/skills.component';
 import { HugDetailComponent } from './portfolio/hug-detail/hug-detail.component';
 import { HikeitDetailComponent } from './portfolio/hikeit-detail/hikeit-detail.component';
+import { WeatherlyMaplyComponent } from './portfolio/weatherly-maply/weatherly-maply.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { HikeitDetailComponent } from './portfolio/hikeit-detail/hikeit-detail.c
     ContactComponent,
     SkillsComponent,
     HugDetailComponent,
-    HikeitDetailComponent
+    HikeitDetailComponent,
+    WeatherlyMaplyComponent
   ],
   imports: [
     BrowserModule,

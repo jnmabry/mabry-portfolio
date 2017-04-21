@@ -10,6 +10,7 @@ import { SkillsComponent } from './skills/skills.component';
 // Project Detail Pages
 import { HugDetailComponent } from './portfolio/hug-detail/hug-detail.component';
 import { HikeitDetailComponent } from './portfolio/hikeit-detail/hikeit-detail.component';
+import { WeatherlyMaplyComponent } from './portfolio/weatherly-maply/weatherly-maply.component';
 
 
 const APP_ROUTES: Routes = [
@@ -20,7 +21,8 @@ const APP_ROUTES: Routes = [
       { path: '', redirectTo: 'all', pathMatch: 'full'},
       { path: 'all', component: PortfolioComponent },
       { path: 'hug-detail', component: HugDetailComponent },
-      { path: 'hikeit-detail', component: HikeitDetailComponent }
+      { path: 'hikeit-detail', component: HikeitDetailComponent },
+      { path: 'weatherly-maply-detail', component: WeatherlyMaplyComponent }
     ]
   },
   { path: 'contact', component: ContactComponent},

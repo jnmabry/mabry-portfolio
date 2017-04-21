@@ -62,3 +62,23 @@ p {
   margin-bottom: 20px;
   font-weight: 300;
 }
+
+.headphones {
+  position: absolute;
+  bottom: -425px;
+  left: 4px;
+  z-index: -1;
+  width: 850px;
+  transform: rotate(50deg);
+  transform: scaleX(-1);
+}
+
+.coffee-cup {
+  position: absolute;
+  bottom: -160px;
+  right: 84px;
+  z-index: -1;
+  width: 450px;
+  transform: rotate(50deg);
+  // transform: scaleX(-1);
+}

@@ -11,10 +11,10 @@ export const PROJECTS: Project[] = [
     image: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=350',
     url: 'hikeit-detail'
   },
-  { name: 'Project 3',
-    description: 'This was a cool project',
+  { name: 'Weather.ly / Mapl.ly',
+    description: 'JavaScript, jQuery, AJAX',
     image: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=350',
-    url: 'hug'
+    url: 'weatherly-maply-detail'
   },
   { name: 'Project 4',
     description: 'This was a cool project',

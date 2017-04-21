@@ -1,0 +1,34 @@
+.hero {
+  height: 510px;
+}
+
+.background {
+  background-image: url('https://static.toky.com/wp/wp-content/uploads/2016/07/TOKY_Lightbox-Image-8-1-1024x768.jpg');
+  background-size: cover;
+  filter: grayscale(100%) contrast(72%);
+  -webkit-filter: grayscale(100%);
+  color: white;
+}
+
+@media(min-width:1200px){
+  .background {
+    background-position-y: -1750px;
+    background-size: cover;
+  }
+}
+
+.heading-text {
+  margin-top: 40px;
+  position: relative;
+  top: 44px;
+}
+
+.detail-body {
+  margin-top: 40px;
+}
+
+.phone{
+  background-size: cover;
+  background-image: url('/assets/iphoneMockup.png');
+  height: 480px;
+}
