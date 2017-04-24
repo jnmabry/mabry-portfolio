@@ -65,10 +65,10 @@ p {
 
 .headphones {
   position: absolute;
-  bottom: -425px;
+  bottom: -385px;
   left: 4px;
   z-index: -1;
-  width: 850px;
+  width: 750px;
   transform: rotate(50deg);
   transform: scaleX(-1);
 }
@@ -81,4 +81,13 @@ p {
   width: 450px;
   transform: rotate(50deg);
   // transform: scaleX(-1);
+}
+
+.my-image{
+  height: 300px;
+  width: 300px;
+  background-image: url("/assets/me.jpg");
+  background-size: cover;
+  // -webkit-filter: grayscale(100%) contrast(70%);
+  // filter: grayscale(100%);
 }

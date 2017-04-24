@@ -29,8 +29,14 @@
   margin-top: 40px;
 }
 
-.phone{
+.weatherly{
   background-size: cover;
-  background-image: url('/assets/iphoneMockup.png');
-  height: 480px;
+  background-image: url('/assets/weatherly-flat.png');
+  height: 380px;
+}
+
+.maply{
+  background-size: cover;
+  background-image: url('/assets/maply-flat.png');
+  height: 380px;
 }
