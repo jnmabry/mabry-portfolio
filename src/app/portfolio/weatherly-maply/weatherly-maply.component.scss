@@ -3,10 +3,10 @@
 }
 
 .background {
-  background-image: url('/assets/sunset-opt.jpg');
+  background-image: url('/assets/weatherly-bg-opt.jpg');
   background-size: cover;
-  filter: grayscale(100%) contrast(72%);
-  -webkit-filter: grayscale(100%) contrast(60%);
+  // filter: grayscale(100%) contrast(72%);
+  -webkit-filter:contrast(60%);
   color: white;
 }
 
