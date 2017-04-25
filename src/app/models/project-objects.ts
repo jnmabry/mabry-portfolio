@@ -21,4 +21,9 @@ export const PROJECTS: Project[] = [
     image: '/assets/hikeit-opt.jpg',
     url: 'hikeit-detail'
   },
+    { name: 'jnmabry.io',
+    description: 'UX/UI Design, Angular 2, JavaScript',
+    image: '/assets/portfolio-mockup-opt.jpg',
+    url: 'portfolio-detail'
+  },
 ];
