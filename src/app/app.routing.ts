@@ -26,7 +26,7 @@ const APP_ROUTES: Routes = [
     ]
   },
   { path: 'contact', component: ContactComponent},
-  { path: 'skills', component: SkillsComponent},
+  // { path: 'skills', component: SkillsComponent},
 ];
 
 export const routing = RouterModule.forRoot(APP_ROUTES);

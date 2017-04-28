@@ -84,10 +84,31 @@ p {
 }
 
 .my-image{
+  background-position: -24px;
   height: 300px;
   width: 300px;
-  background-image: url("/assets/me-opt.jpg");
+  background-image: url("/assets/bw.jpg");
   background-size: cover;
+  border: 2px solid black;
   // -webkit-filter: grayscale(100%) contrast(70%);
   // filter: grayscale(100%);
+}
+
+.rokhanna {
+  height: 300px;
+  width: 300px;
+  background-image: url("/assets/rokhanna.jpg");
+  background-size: cover;
+  border: 2px solid black;
+  // -webkit-filter: grayscale(100%) contrast(70%);
+  // filter: grayscale(100%);
+}
+
+.web-technologies {
+  color: black;
+  font-size: 40px;
+}
+
+.about {
+  margin-bottom: 50px;
 }
