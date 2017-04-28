@@ -89,17 +89,17 @@ p {
   width: 300px;
   background-image: url("/assets/bw.jpg");
   background-size: cover;
-  border: 2px solid black;
+  // border: 2px solid black;
   // -webkit-filter: grayscale(100%) contrast(70%);
   // filter: grayscale(100%);
 }
 
 .rokhanna {
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
   background-image: url("/assets/rokhanna.jpg");
   background-size: cover;
-  border: 2px solid black;
+  // border: 2px solid black;
   // -webkit-filter: grayscale(100%) contrast(70%);
   // filter: grayscale(100%);
 }
@@ -111,4 +111,8 @@ p {
 
 .about {
   margin-bottom: 50px;
+}
+
+.skills {
+  // border-top: 1px solid black;
 }

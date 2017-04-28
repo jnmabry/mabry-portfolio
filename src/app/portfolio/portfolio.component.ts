@@ -27,7 +27,7 @@ export class PortfolioComponent implements OnInit {
   }
 
   navigateTo(url: string) {
-    this._router.navigateByUrl('portfolio/' + url);
+    // this._router.navigateByUrl('portfolio/' + url);
   }
 
 }
